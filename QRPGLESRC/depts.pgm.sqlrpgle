@@ -9,8 +9,6 @@
 
       /include 'constants.rpgleinc'
 
-
-
       //---------------------------------------------------------------*
 
      Fdepts     CF   E             WorkStn Sfile(SFLDta:Rrn)

@@ -7,8 +7,8 @@ all: depts.pgm.sqlrpgle employees.pgm.sqlrpgle
 
 ## Targets
 
-depts.pgm.sqlrpgle: depts.dspf department.table
-employees.pgm.sqlrpgle: emps.dspf employee.table
+depts.pgm.sqlrpgle: depts.dspf
+employees.pgm.sqlrpgle: emps.dspf
 
 ## Rules
 

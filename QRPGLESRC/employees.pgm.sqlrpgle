@@ -36,7 +36,7 @@ Dcl-DS FILEINFO;
 End-DS;
 
       //---------------------------------------------------------------*
-      //
+      //---
 Dcl-S Index Int(5);
 
 Dcl-Ds Employee ExtName('EMPLOYEE') Alias Qualified;

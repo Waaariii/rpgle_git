@@ -1,0 +1,19 @@
+{
+    "repository": "git@github.com:worksofliam/company_system.git",
+    "extensions": {
+      "arcad": {
+        "code": "CMPSYSA",
+        "libraryPrefix": "CPS",
+        "validated": true,
+        "iasp": ""
+      }
+    },
+    "description": "Company System ARCAD project",
+    "includePath": [
+      "qrpgleref"
+    ],
+    "curlib": "&verlibcsy",
+    "objlib": "&verlibcsy",
+    "buildCommand": "/QOpenSys/pkgs/bin/elias compile {branch}",
+    "compileCommand": "/QOpenSys/pkgs/bin/elias compile {branch} -f {filename}"
+  }

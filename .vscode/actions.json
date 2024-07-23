@@ -1,11 +1,11 @@
 [
     {
-        "name": "Deploy and build",
+        "name": "Build and deploy with make 🔨",
+        "command": "/QOpenSys/pkgs/bin/gmake BIN_LIB=&CURLIB OPT=*EVENTF",
         "environment": "pase",
+        "deployFirst": true,
         "extensions": [
             "GLOBAL"
-        ],
-        "deployFirst": true,
-        "command": "/QOpenSys/pkgs/bin/gmake &BASENAME BIN_LIB=&CURLIB OPTS=*EVENTF"
+        ]
     }
 ]

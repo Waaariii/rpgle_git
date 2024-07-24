@@ -1,4 +1,3 @@
-
 BIN_LIB=CMPSYS
 LIBLIST=$(BIN_LIB)
 SHELL=/QOpenSys/usr/bin/qsh
@@ -23,5 +22,5 @@ employees.pgm.sqlrpgle: emps.dspf employee.table
 	system -s "CRTDSPF FILE($(BIN_LIB)/$*) SRCFILE($(BIN_LIB)/QDDSSRC) SRCMBR($*)"
 
 %.table: qddssrc/%.table
-	liblist -c $(BIN_LIB);\
+	liblist -c $(LIBLIST);\
 	system "RUNSQLSTM SRCSTMF('$<') COMMIT(*NONE)"
